@@ -1,0 +1,12 @@
+.header{
+  // position:relative;
+}
+
+.logo{
+  &__text{
+    display: block;
+    font-size: 8rem;
+    font-family: "Shelby", cursive;
+
+  }
+}

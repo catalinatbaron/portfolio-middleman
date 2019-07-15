@@ -1,0 +1,23 @@
+.navbar{
+  // position: absolute;
+  // top:2rem;
+  // left:3rem;
+  width: 100%;
+  // text-align: center;
+
+  &__element{
+
+    list-style-type: none;
+    display: inline-block;
+    &:not(:last-child){
+      margin-right:6rem;
+    }
+  }
+
+  .link{
+        text-decoration: none;
+        color: $color-grey;
+        text-transform: uppercase;
+        font-size: 3rem;
+    }
+}
