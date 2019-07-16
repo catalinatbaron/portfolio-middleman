@@ -1,0 +1,150 @@
+// .section-animation-1{
+//   position: relative;
+//   width:100vw;
+//   height: 100vh;
+
+// }
+
+// .block{
+//   background-color: $color-orange-light;
+//   width:10rem;
+//   height: 100vh;
+//   // display:inline-block;
+
+//   position:absolute;
+//   top:0;
+//   left:0;
+//   z-index: 10;
+// }
+
+// .block2{
+//   background-color: $color-pink-light;
+//   width:100vw;
+//   height: 100vh;
+//   // display:inline-block;
+//   // float:right;
+//   position: absolute;
+//   top:0;
+//   right:0;
+//   transition: all .9s;
+//   // z-index: 1;
+// }
+
+// .move{
+//     // float:left;
+//     right:100vw;
+//   }
+
+
+// .section-animation-2{
+//   position:relative;
+//   width: 100vw;
+//   height: 100vh;
+//   background-color: $color-orange-light;
+// }
+
+// .eye{
+//   position:absolute;
+//   top:50%;
+//   left:50%;
+//   transform: translate(-100%,-100%);
+//   background-color: $color-white;
+//   width: 20rem;
+//   height:20rem;
+//   border-radius: 50%;
+//   overflow: hidden;
+
+//   &1{
+//     margin-left:20rem;
+//   }
+//   &2{
+//     margin-right:20rem;
+//   }
+// }
+
+// .pupil{
+//   position:absolute;
+//   top:10rem;
+//   left:10rem;
+//   transform: translate(-50%,-50%);
+//   background-color: $color-black;
+//   width: 5rem;
+//   height:5rem;
+//   border-radius: 50%;
+//   transition: all .1s;
+// }
+
+
+
+
+
+
+
+
+
+
+
+.section-parallax{
+  position:relative;
+  min-width: 100vw;
+  min-height: 200vh;
+  background-color: $color-white;
+}
+
+.parallax-item{
+  position:absolute;
+  top:25vh;
+  left:50vw;
+  transform: translate(-50%,-50%);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

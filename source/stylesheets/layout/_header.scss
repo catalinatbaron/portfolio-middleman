@@ -1,8 +1,10 @@
 .header{
-  // position:relative;
+  position:relative;
+  // z-index:100;
 }
 
 .logo{
+  // z-index: 90;
   &__text{
     display: block;
     font-size: 8rem;
