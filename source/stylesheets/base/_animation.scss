@@ -100,6 +100,46 @@
 }
 
 
+.section-animation-logo{
+  position:absolute;
+  height: 100vh;
+  width: 100vw;
+  margin-top: 60vh;
+  z-index: 10000;
+  top:0;
+  left: 0;
+}
+
+.logo{
+  text-align: center;
+  display: inline-block;
+  width: 70vw;
+  }
+
+svg{
+  transition:all .9s;
+
+
+.st0{
+  transition:all .9s ease-in-out;
+
+&-1{
+transform:translateX(20rem) rotate(30deg);
+}
+&-2{
+transform:translateX(60rem) rotate(90deg);
+}
+ &-3{
+transform:translateX(30rem) rotate(70deg);
+}
+&-4{
+transform:translateX(20rem) rotate(45deg);
+}
+}
+
+
+}
+
 
 
 

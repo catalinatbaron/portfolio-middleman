@@ -51,6 +51,8 @@ let itemsHTMLCollection = document.getElementsByClassName("parallax-item");
 let itemsArray = Array.from(itemsHTMLCollection);
 // console.log(itemsArray);
 
+let linesHTMLCollection = document.getElementsByClassName("st0");
+
 
 //------------function event----------//
 
@@ -122,11 +124,31 @@ let handleResize = function () {
   input.scrollY.range = input.scrollY.end - input.scrollY.start
 }
 
+
+let logoScroll = function () {
+  input.scrollY.current = document.documentElement.scrollTop;
+  input.scrollY.fraction = (input.scrollY.current - input.scrollY.start) / input.mouseY.range;
+
+  output.y.current = output.y.start + (input.scrollY.fraction * output.y.range);
+
+
+  console.log(document.documentElement.scrollTop)
+
+  linesHTMLCollection[0].classList.add("st0-1");
+  linesHTMLCollection[1].classList.add("st0-2");
+  linesHTMLCollection[2].classList.add("st0-3");
+  linesHTMLCollection[3].classList.add("st0-4");
+
+  // linesHTMLCollection[0].classList.add("st0-1");
+}
+
+
+
 window.addEventListener('resize', handleResize);
 
 document.addEventListener('scroll', handleScroll);
 
-
+document.addEventListener('scroll', logoScroll);
 
 
 
